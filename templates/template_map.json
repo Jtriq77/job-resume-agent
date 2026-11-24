@@ -1,0 +1,111 @@
+{
+  "file": "01_主模板_产品运营_单页_可填充.docx",
+  "source": "01_主模板_产品运营_单页.docx",
+  "pages": 1,
+  "columns": 1,
+  "tables": 0,
+  "textboxes": 0,
+  "photo": "{{photo}}（当前为 PHOTO 占位图）",
+  "slots": {
+    "header": {
+      "name": 0,
+      "job_intent": 1,
+      "contact": 2
+    },
+    "education": [
+      {
+        "header": 4,
+        "bullets": [
+          5,
+          6
+        ]
+      },
+      {
+        "header": 8,
+        "bullets": [
+          9,
+          10
+        ]
+      }
+    ],
+    "internships": [
+      {
+        "header": 12,
+        "bullets": [
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "header": 16,
+        "bullets": [
+          17,
+          18,
+          19
+        ]
+      }
+    ],
+    "campus": [
+      {
+        "header": 21,
+        "bullets": [
+          22,
+          23,
+          24
+        ]
+      },
+      {
+        "header": 25,
+        "bullets": [
+          26,
+          27,
+          28
+        ]
+      }
+    ],
+    "skills": [
+      30,
+      31,
+      32
+    ]
+  },
+  "limits": {
+    "education": 2,
+    "internships": 2,
+    "campus": 2,
+    "skills": 3,
+    "note": "固定槽位；超出需要复制段落块，后续版本支持动态循环。"
+  },
+  "placeholders": [
+    "- GPA：{{edu1_gpa}}；{{edu1_extra}}",
+    "- GPA：{{edu2_gpa}}；{{edu2_extra}}",
+    "- {{cam1_b1}}",
+    "- {{cam1_b2}}",
+    "- {{cam1_b3}}",
+    "- {{cam2_b1}}",
+    "- {{cam2_b2}}",
+    "- {{cam2_b3}}",
+    "- {{int1_b1}}",
+    "- {{int1_b2}}",
+    "- {{int1_b3}}",
+    "- {{int2_b1}}",
+    "- {{int2_b2}}",
+    "- {{int2_b3}}",
+    "- 相关课程：{{edu1_courses}}",
+    "- 相关课程：{{edu2_courses}}",
+    "{{cam1_date}}    {{cam1_org}}    {{cam1_role}}",
+    "{{cam2_date}}    {{cam2_org}}    {{cam2_role}}",
+    "{{contact}}",
+    "{{edu1_date}}    {{edu1_school}}    {{edu1_major}}    {{edu1_degree}}",
+    "{{edu2_date}}    {{edu2_school}}    {{edu2_major}}    {{edu2_degree}}",
+    "{{int1_date}}    {{int1_company}}    {{int1_dept}}    {{int1_role}}",
+    "{{int2_date}}    {{int2_company}}    {{int2_dept}}    {{int2_role}}",
+    "{{name}}",
+    "{{skill1}}",
+    "{{skill2}}",
+    "{{skill3}}",
+    "校园与项目经历",
+    "求职意向：{{job_intent}}"
+  ]
+}

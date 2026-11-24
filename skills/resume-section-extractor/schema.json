@@ -1,0 +1,50 @@
+{
+  "type": "object",
+  "required": ["educations", "internships", "campus", "skills"],
+  "properties": {
+    "name": {"type": "string"},
+    "age": {"type": "string"},
+    "political_status": {"type": "string"},
+    "phone": {"type": "string"},
+    "email": {"type": "string"},
+    "city": {"type": "string"},
+    "target_cities": {"type": "array", "items": {"type": "string"}},
+    "job_intent": {"type": "string"},
+    "availability": {"type": "string"},
+    "educations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "date": {"type": "string"}, "school": {"type": "string"},
+          "major": {"type": "string"}, "degree": {"type": "string"},
+          "gpa": {"type": "string"}, "extra": {"type": "string"},
+          "courses": {"type": "string"}
+        }
+      }
+    },
+    "internships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "date": {"type": "string"}, "company": {"type": "string"},
+          "dept": {"type": "string"}, "role": {"type": "string"},
+          "bullets": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    },
+    "campus": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "date": {"type": "string"}, "org": {"type": "string"},
+          "role": {"type": "string"},
+          "bullets": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    },
+    "skills": {"type": "array", "items": {"type": "string"}}
+  }
+}

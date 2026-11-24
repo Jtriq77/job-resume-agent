@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "required": ["educations", "internships", "campus", "skills"],
+  "properties": {
+    "educations": {"type": "array"},
+    "internships": {"type": "array"},
+    "campus": {"type": "array"},
+    "skills": {"type": "array", "items": {"type": "string"}}
+  }
+}

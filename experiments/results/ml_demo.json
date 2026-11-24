@@ -1,0 +1,63 @@
+{
+  "profile": "李同学",
+  "method": "family classifier + KM++ cluster + LR ranker",
+  "top": [
+    {
+      "job_id": "hotjob-422dbe:6aacf619fea5e04bda6e78e9",
+      "title": "产品运营岗",
+      "company": "华泰证券",
+      "category": "运营",
+      "predicted_category": "运营",
+      "category_prob": 0.6546,
+      "cluster": 2,
+      "ranker_score": 0.3556,
+      "features": {
+        "skill_cov": 0.0,
+        "title_hit": 0.5,
+        "text_cos": 0.2378,
+        "city_match": 1.0,
+        "edu_match": 0.0,
+        "jd_len_norm": 0.126,
+        "title_len_norm": 0.125
+      }
+    },
+    {
+      "job_id": "shixiseng-dewuapp:inn_sqc9dcoeoxx3",
+      "title": "效率产品运营实习生（急招）",
+      "company": "得物App",
+      "category": "运营",
+      "predicted_category": "运营",
+      "category_prob": 0.9829,
+      "cluster": 12,
+      "ranker_score": 0.3396,
+      "features": {
+        "skill_cov": 0.0,
+        "title_hit": 0.5,
+        "text_cos": 0.2512,
+        "city_match": 1.0,
+        "edu_match": 0.0,
+        "jd_len_norm": 0.165,
+        "title_len_norm": 0.325
+      }
+    },
+    {
+      "job_id": "bytedance:7670116730651347205",
+      "title": "AI产品运营（C端） - 体验与服务",
+      "company": "字节跳动",
+      "category": "运营",
+      "predicted_category": "产品",
+      "category_prob": 0.9879,
+      "cluster": 1,
+      "ranker_score": 0.3309,
+      "features": {
+        "skill_cov": 0.0,
+        "title_hit": 0.5,
+        "text_cos": 0.1919,
+        "city_match": 1.0,
+        "edu_match": 0.0,
+        "jd_len_norm": 0.1957,
+        "title_len_norm": 0.45
+      }
+    }
+  ]
+}

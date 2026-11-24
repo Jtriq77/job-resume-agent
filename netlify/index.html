@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>求职助手 · 简历与投递</title>
+  <style>
+    :root { --ink:#0f172a; --muted:#64748b; --line:#e2e8f0; --blue:#2563eb; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;
+      color:var(--ink); background:radial-gradient(circle at 15% 0%,#e0f2fe 0,transparent 38%),#f8fafc; }
+    .wrap { max-width:1080px; margin:0 auto; padding:64px 24px 48px; }
+    .eyebrow { font-size:13px; letter-spacing:.12em; color:var(--blue); font-weight:700; }
+    h1 { font-size:clamp(34px,5vw,64px); line-height:1.08; margin:16px 0 18px; letter-spacing:-.03em; }
+    .lead { font-size:17px; line-height:1.8; color:var(--muted); max-width:680px; }
+    .cta { display:inline-flex; align-items:center; gap:10px; margin:28px 0 8px; padding:14px 22px;
+      border-radius:999px; background:var(--ink); color:#fff; text-decoration:none; font-weight:650; }
+    .cta:hover { background:var(--blue); }
+    .hint { font-size:12px; color:#94a3b8; }
+    .cards { display:grid; grid-template-columns:repeat(3,1fr); gap:14px; margin-top:48px; }
+    .card { background:#fff; border:1px solid var(--line); border-radius:14px; padding:18px; }
+    .card b { display:block; margin-bottom:6px; font-size:14px; }
+    .card span { font-size:13px; line-height:1.65; color:var(--muted); }
+    footer { margin-top:56px; padding-top:18px; border-top:1px solid var(--line); font-size:12px; color:#94a3b8; }
+    @media (max-width:760px) { .cards { grid-template-columns:1fr; } .wrap { padding-top:40px; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="eyebrow">RESUME &amp; JOB ASSISTANT</div>
+    <h1>把简历写清楚，<br>再决定投哪里。</h1>
+    <p class="lead">把零散的经历整理成教育、实习、校园与项目、技能四块内容；选一个方向，生成一页简历；再看岗位、记录投递。</p>
+    <a class="cta" href="__APP_URL__" target="_blank" rel="noopener">打开求职助手 →</a>
+    <div class="hint">首次打开可能需要几秒加载。</div>
+
+    <div class="cards">
+      <div class="card"><b>信息整理</b><span>一段话就能整理成四块简历内容，不用先填长表单。</span></div>
+      <div class="card"><b>方向推荐</b><span>根据已有经历给出几个适合的方向，选定后再写细。</span></div>
+      <div class="card"><b>简历生成</b><span>每段经历写成完整一段，支持多段经历和一页排版。</span></div>
+      <div class="card"><b>岗位参考</b><span>按匹配度看大厂、中厂、小厂岗位，附带投递链接。</span></div>
+      <div class="card"><b>模板库</b><span>不同页数、不同风格的模板，可预览、可下载。</span></div>
+      <div class="card"><b>投递记录</b><span>标记已投、设置跟进，集中看自己的投递进度。</span></div>
+    </div>
+
+    <footer>课程项目展示页 · 不构成任何求职或录用承诺</footer>
+  </div>
+</body>
+</html>

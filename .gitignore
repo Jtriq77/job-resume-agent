@@ -1,0 +1,11 @@
+.env
+.streamlit/secrets.toml
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+data/profile.json
+data/profile_tailored.json
+data/output/
+data/applications.csv
+data/photo_upload*

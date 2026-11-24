@@ -1,0 +1,34 @@
+{
+  "name": "job_family_clf",
+  "version": "v1",
+  "trained_at": "2026-11-24T16:26:21+08:00",
+  "algorithm": "TF-IDF (char 1-3 + en token) + MultinomialNB",
+  "classes": [
+    "产品",
+    "其他",
+    "医药",
+    "工程制造",
+    "市场销售",
+    "技术",
+    "教育培训",
+    "管培",
+    "职能",
+    "设计",
+    "运营",
+    "金融",
+    "项目管理"
+  ],
+  "n_features": 30000,
+  "data_source": "job_radar snapshot 2026-11-23",
+  "train_size": 3120,
+  "test_size": 780,
+  "macro_f1_silver": 0.7602,
+  "accuracy_silver": 0.7615,
+  "title_only_macro_f1": 0.9244,
+  "majority_baseline_macro_f1": 0.011,
+  "limitations": [
+    "标签来自规则职类，不是人工金标准",
+    "测试集与训练集同分布，未验证跨来源泛化",
+    "类别边界（产品/运营、技术/数据）存在主观性"
+  ]
+}

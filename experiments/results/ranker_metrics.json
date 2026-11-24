@@ -1,0 +1,101 @@
+{
+  "method": "feature engineering + L2 logistic regression (pointwise LTR)",
+  "features": [
+    "skill_cov",
+    "title_hit",
+    "text_cos",
+    "city_match",
+    "edu_match",
+    "jd_len_norm",
+    "title_len_norm"
+  ],
+  "train_pairs": 2115,
+  "test_pairs": 485,
+  "per_profile": {
+    "data": {
+      "n_test": 97,
+      "positive": 25,
+      "model": {
+        "ndcg@5": 0.5438,
+        "ndcg@10": 0.6154,
+        "recall@5": 0.08
+      },
+      "baseline": {
+        "ndcg@5": 1.0,
+        "ndcg@10": 1.0,
+        "recall@5": 0.04
+      }
+    },
+    "product": {
+      "n_test": 97,
+      "positive": 14,
+      "model": {
+        "ndcg@5": 1.0,
+        "ndcg@10": 0.9818,
+        "recall@5": 0.2857
+      },
+      "baseline": {
+        "ndcg@5": 1.0,
+        "ndcg@10": 1.0,
+        "recall@5": 0.0714
+      }
+    },
+    "frontend": {
+      "n_test": 97,
+      "positive": 4,
+      "model": {
+        "ndcg@5": 0.8503,
+        "ndcg@10": 0.8503,
+        "recall@5": 0.5
+      },
+      "baseline": {
+        "ndcg@5": 0.0,
+        "ndcg@10": 0.0,
+        "recall@5": 0.0
+      }
+    },
+    "backend": {
+      "n_test": 97,
+      "positive": 4,
+      "model": {
+        "ndcg@5": 0.8772,
+        "ndcg@10": 0.8385,
+        "recall@5": 0.5
+      },
+      "baseline": {
+        "ndcg@5": 0.0,
+        "ndcg@10": 0.0,
+        "recall@5": 0.0
+      }
+    },
+    "ops": {
+      "n_test": 97,
+      "positive": 17,
+      "model": {
+        "ndcg@5": 1.0,
+        "ndcg@10": 1.0,
+        "recall@5": 0.2941
+      },
+      "baseline": {
+        "ndcg@5": 0.9197,
+        "ndcg@10": 0.8711,
+        "recall@5": 0.1176
+      }
+    }
+  },
+  "average": {
+    "ndcg@5": {
+      "model": 0.8543,
+      "baseline": 0.5839
+    },
+    "ndcg@10": {
+      "model": 0.8572,
+      "baseline": 0.5742
+    },
+    "recall@5": {
+      "model": 0.332,
+      "baseline": 0.0458
+    }
+  },
+  "label_note": "弱标注：仅按岗位族匹配生成；不是人工相关性标注，不能当作真实业务 NDCG。"
+}

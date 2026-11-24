@@ -1,0 +1,10 @@
+# 当前代码只依赖这些；暂不引入 sklearn/torch，避免 macOS 代码签名/大依赖问题
+streamlit>=1.40
+numpy>=1.26
+requests>=2.32
+beautifulsoup4>=4.12
+python-docx>=1.1
+pdfplumber>=0.11
+python-dotenv>=1.0
+
+Pillow>=10

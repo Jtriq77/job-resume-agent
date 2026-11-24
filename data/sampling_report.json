@@ -1,0 +1,92 @@
+{
+  "per_category_target": 300,
+  "categories": {
+    "技术": {
+      "picked": 300,
+      "campus": 210,
+      "intern": 90
+    },
+    "产品": {
+      "picked": 300,
+      "campus": 210,
+      "intern": 90
+    },
+    "运营": {
+      "picked": 300,
+      "campus": 210,
+      "intern": 90
+    },
+    "设计": {
+      "picked": 300,
+      "campus": 210,
+      "intern": 90
+    },
+    "市场销售": {
+      "picked": 300,
+      "campus": 210,
+      "intern": 90
+    },
+    "职能": {
+      "picked": 300,
+      "campus": 210,
+      "intern": 90
+    },
+    "金融": {
+      "picked": 300,
+      "campus": 210,
+      "intern": 90
+    },
+    "医药": {
+      "picked": 300,
+      "campus": 210,
+      "intern": 90
+    },
+    "工程制造": {
+      "picked": 300,
+      "campus": 210,
+      "intern": 90
+    },
+    "管培": {
+      "picked": 300,
+      "campus": 233,
+      "intern": 67
+    },
+    "项目管理": {
+      "picked": 300,
+      "campus": 210,
+      "intern": 90
+    },
+    "教育培训": {
+      "picked": 300,
+      "campus": 210,
+      "intern": 90
+    },
+    "其他": {
+      "picked": 300,
+      "campus": 210,
+      "intern": 90
+    }
+  },
+  "snapshot": "2026-11-23T01:53:40Z",
+  "kept": 3900,
+  "by_category": {
+    "技术": 300,
+    "产品": 300,
+    "运营": 300,
+    "设计": 300,
+    "市场销售": 300,
+    "职能": 300,
+    "金融": 300,
+    "医药": 300,
+    "工程制造": 300,
+    "管培": 300,
+    "项目管理": 300,
+    "教育培训": 300,
+    "其他": 300
+  },
+  "by_recruit_type": {
+    "campus": 2753,
+    "intern": 1147
+  },
+  "avg_jd_chars": 413.3
+}
